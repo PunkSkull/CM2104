@@ -1,0 +1,102 @@
+body {
+ margins:auto;
+ width:80%;
+}
+
+header, section, article, nav, aside,
+footer, div {
+ font-family: sans-serif;
+ border: 1px dotted #000;
+ padding: 10px;
+ margin: 10px;
+}
+
+#SiteTitle {
+  float: right;
+  font-size: 500%;
+}
+
+#SiteNavigation li a {
+  display:inline-block;
+  padding-right:30px;
+  padding-top:0px;
+}
+
+ul {
+  width:50%;
+  height:1em;
+}
+
+li {
+  float:left;
+}
+
+.BlogPost {
+  background-color: LightBlue;
+
+}
+
+.BlogPost div{
+  display:inline-block;
+}
+
+.BlogPostTitle {
+  background-color: SteelBlue;
+  text-align: center;
+}
+
+.BlogPostDate {
+  background-color: Gray;
+}
+
+.BlogPostContent {
+  background-color: Silver;
+  width:45%;
+}
+
+.BlogPostContent2 {
+  float:right;
+  background-color: Silver;
+  width:48%;
+}
+
+#SitePic1 {
+  width:55%;
+  height:20em;
+}
+
+#SitePic2 {
+  width:55%;
+  height:20em;
+}
+
+#SitePic3 {
+  width:55%;
+  height:20em;
+}
+
+#SitePic4 {
+  width:40%;
+  height:10em;
+}
+
+
+#PageHead {
+  border-color: DarkTurquoise;
+}
+
+#SiteNavigation{
+  border-color: Turquoise
+}
+
+#PageContent {
+  border-color: Navy;
+}
+
+#PageFooter {
+  border-color: MidnightBlue;
+}
+
+#PageHeader {
+  border-color: Teal;
+}
