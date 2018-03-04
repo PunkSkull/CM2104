@@ -13,5 +13,3 @@ function animate(time) {
     requestAnimationFrame(animate);
 }
 requestAnimationFrame(animate);
-
-
