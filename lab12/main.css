@@ -4,4 +4,6 @@ html {
   line-height: 1.4;
 }
 
-#mapid { height:400px; }
+#mapid {
+  height:400px;
+ }
