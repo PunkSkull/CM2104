@@ -4,7 +4,7 @@ var Twitter = require('twitter');
 var params = {screen_name: 'nodejs'};
 var client = new Twitter({
  consumer_key: 'g98jHP1lHhfofUSYVVEUcYElG',
- consumer_secret: '6nyKR60Kfb4Bt9q4dGFAwwzrQ9GmA9ydFLWjE3AwUuCpUsi0T7s',
+ consumer_secret: '6nyKR60Kfb4Bt9q4dGFAwwzrQ9GmA9ydFLWjE3AwUuCpUsi0T7',
  access_token_key: '976065842763968513-rQLLQ3jqkkHumyUjZwmbm5j5vxjq8Wy',
  access_token_secret: '2kVeaY3JmPTM5IDwyyAUNMBYmRKUKqjOhRzYd23gBKQtF'
 });
