@@ -15,6 +15,9 @@ app.get('/', function(req, res){
 if (!error) {
 res.send(tweets);
 }
+else{
+  res.send(error);
+}
 });
 });
 app.listen(8080);
