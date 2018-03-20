@@ -20,8 +20,6 @@ else{
 }
 });
 });
-app.listen(8080);
-
 var output = "";
  for (var t = 0; t < tweets.length; t++) {
  output += "<div>";
@@ -30,3 +28,4 @@ var output = "";
  output += "</div>";
  }
 res.send(output);
+app.listen(8080);
