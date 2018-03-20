@@ -9,7 +9,7 @@ var client = new Twitter({
  access_token_secret: '2kVeaY3JmPTM5IDwyyAUNMBYmRKUKqjOhRzYd23gBKQtF'
 });
 app.use(express.static('public'))
-app.get('/', function(req, res){
+/*app.get('/', function(req, res){
 
   client.get('statuses/user_timeline', params, function(error, tweets, response) {
 if (!error) {
@@ -26,7 +26,7 @@ else{
   res.send(error);
 }
 });
-});
+});*/
 app.get('/tweetsjson', function(req, res) {
  var params = {
  screen_name: 'nodejs'
